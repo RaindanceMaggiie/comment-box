@@ -20,7 +20,6 @@ const comments = [
       const newComments = comments
         .map(
           comment => `<div class="single-comment">
-  <p class="date">${new Date().toISOString().slice(0, 10)}:</p>
   <p class="comment-text">${comment.comment}</p>
   </div>`
         )
